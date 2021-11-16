@@ -1,6 +1,7 @@
 const path = require('path');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const DotenvWebpackPlugin = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -13,6 +14,7 @@ module.exports = {
     contentBase: './dist'
   },
   plugins: [
+    new DotenvWebpackPlugin(),
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       title: 'Shape Tracker',

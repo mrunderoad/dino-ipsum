@@ -7,5 +7,38 @@
   <title>Document</title>
 </head>
 <body>
+  <div id="game" class="container">
+    <h1>Dino Hangman!</h1>
+    <img class="hangman 1st" src="assets/1st.jpeg">
+    <img class="hangman 2nd" src="assets/2nd.jpeg">
+    <img class="hangman 3rd" src="assets/3rd.jpeg">
+    <img class="hangman 4th" src="assets/4th.jpeg">
+    <img class="hangman 5th" src="assets/5th.jpeg">
+    <img class="hangman 6th" src="assets/6th.jpeg">
+    <img class="hangman 7th" src="assets/7th.jpeg">
+    <img class="hangman 8th" src="assets/8th.jpeg">
+    <img class="hangman 9th" src="assets/9th.jpeg">
+    <h2 id="hangmanWord"></h2>
+    <form id="formOne">
+      <div class="form-group">
+        <label for="letter">Enter a letter</label>
+        <input id="letter" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Check Letter</button> 
+    </form>
+    <div class="guessedLetters">
+      <h4>Guessed Wrong Letters:</h4>
+      <p id="guessedLetters"></p>
+    </div>
+    <h3 class="showErrors"></h3>
+  </div>
+  <div id="loss" class="container">
+    <h2> YOU LOSER! </h2>
+    <img src="assets/nelson.gif">
+  </div>
+  <div id="win" class="container">
+    <h2>OMG YOU WON!</h2>
+    <img src="assets/win.gif">
+  </div>
 </body>
 </html>

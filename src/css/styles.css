@@ -1,0 +1,30 @@
+#loss {
+  display: none;
+}
+
+#win {
+  display: none;
+}
+
+img {
+  width: 70%;
+}
+
+h2 {
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btn {
+  color: red;
+  background-color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.hangman {
+  display: none;
+}

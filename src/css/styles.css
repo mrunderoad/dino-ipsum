@@ -28,3 +28,7 @@ h1 {
 .hangman {
   display: none;
 }
+
+body {
+  background-color: rgb(243, 201, 201);
+}
